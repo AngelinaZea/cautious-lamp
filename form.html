@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/form-style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/heathbenefits.html">Health Benfits</a></li>
+            <li><a href="/breeds.html">Breeds</a></li>
+            <li><a href="/form.html">Form</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>
+            Chat with me and Subcribe
+        </h1>
+    </header>
+
+    <section class="chat">
+        <form method="post" name="chat" data-netlify="true">
+            <div>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="first name" required>
+            </div>
+
+            <div>
+                <label for="what is your cats name or what do wish your future cats name to be">What is your cat’s name or what do wish your future cat’s name to be?</label>
+                    <textarea name="textarea" style="width:200px; height:50px;"></textarea>
+            </div>
+
+            <div class="radio">
+                <span>Are you thw owner of a cat?</span>
+                <label for="view">Yes</label>
+                <input type="radio" name="view" id="yes" value="yes" required>
+                <label for="view">No</label>
+                <input type="radio" name="view" id="no" value="no" required>
+            </div>
+
+            <div class="radio">
+                <span>Do you perfer female or male cats?</span>
+                <label for="view">Female</label>
+                <input type="radio" name="view" id="yes" value="yes" required>
+                <label for="view">Male</label>
+                <input type="radio" name="view" id="no" value="no" required>
+            </div>
+
+            <div>
+                <label for="do you have any interesting facts or tidbits about your cat or favorite breed">Do you have any interesting facts or tidbits about your cat or favorite breed? </label>
+                    <textarea name="Tell me more" style="width:200px; height:50px;"></textarea>
+            </div>
+
+
+            <div>
+                <label for="room type">Room Type:</label>
+                <select name="room type" id="room type" required>
+                    <option hidden selected disabled value="">Choose One</option>
+                    <option value="select">Select</option>
+                    <option value="option">Option</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="is there a shelter youd like to promote in your area?">Is there a shelter you’d like to promote in your area?</label>
+                    <textarea name="Tell me more" style="width:200px; height:50px;"></textarea>
+            </div>
+
+            <div>
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Subscribe</button>            
+            </div>
+
+            <div>
+                <label for="by checking this off, you are an agreeing to loving and being the best pet owner you can be, especially if you own a feline baby. check box cant continue without out.">
+                    By checking this off, you are an agreeing to loving and being the best pet owner you can be, especially if you own a feline baby. Check Box can’t continue without out.</label>
+                <input type="checkbox" name="completly agree" id="completly agree">
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+            <div>
+                <button type="reset">Reset</button>
+            </div>
+
+        </form>
+    </section>
+
+
+
+    <footer>
+        <small>
+            Website by Angelina Zea <br>
+            Created on 12/12/24 <br>
+            Created by <a href="https://asnuntuck.edu" target="_blank">Asnuntuck Community College</a>
+        </small>
+    </footer>
+
+</body>
+</html>
