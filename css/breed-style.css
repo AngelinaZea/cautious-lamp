@@ -1,3 +1,16 @@
+:root {
+    --color-green: #A8CD89;
+    --color-yelow: #F4E0AF;
+    --color-pink: #F9C0AB;
+    --color-darkgreen: #355F2E;
+}
+
+html {
+    font-family:'Parkinsans', 'tajawal';
+    font-size: 1.25rem;
+    line-height: 1.2;
+    color: var(--color-darkgreen);
+}
 
 
 

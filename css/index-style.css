@@ -1,3 +1,125 @@
+:root {
+    --color-green: #A8CD89;
+    --color-yelow: #F4E0AF;
+    --color-pink: #F9C0AB;
+    --color-darkgreen: #355F2E;
+}
+
+html {
+    font-family: 'Parkinsans', 'tajawal';
+    font-size: 1.25rem;
+    line-height: 1.2;
+    color: var(--color-green);
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    font-family: 'Parkinsans';
+    width: 15%;
+    background-color: var(--color-green);
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+
+nav a {
+    padding: 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+nav a:link,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover,
+nav a:active {
+    background-color: var(--color-pink);
+    padding: 8px 10px;
+    color: white;
+}
+
+
+header {
+    margin-left: 15%;
+    padding: 1px 11px;
+    font-family: 'Perkinsans';
+    font-size:  1.05rem;
+    text-align: center;
+}
+
+Main {
+    margin-left: 15%;
+    padding: 1px 11px;
+    height: 1000px;
+    font-family: 'tajawal';
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.site-intro {
+    color: var(--color-darkgreen);
+    font-size: 21px;
+    padding-inline: 15%;
+}
+
+h3 {
+    font-size: 20px;
+    color: var(--color-darkgreen);
+}
+
+.shelter {
+    color: var(--color-pink);
+    font-size: 18px;
+    list-style-type: none;
+    text-decoration: none;
+    padding-bottom: 5%;
+}
+
+footer {
+    position:relative;
+    font-size: 0.8rem;
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+    margin-left: -1.3%;
+    margin-right: 85%;
+}
+
+footer a {
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+
+footer a:link,
+footer a:visited {
+    color: white;
+}
+
+footer a:hover,
+footer a:active {
+    color: var(--color-yelow);
+    text-decoration: underline dotted 3px;
+    text-decoration-color: white;
+}
 
 
 
