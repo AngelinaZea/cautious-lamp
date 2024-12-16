@@ -5,9 +5,170 @@
     --color-darkgreen: #355F2E;
 }
 
+
+
 html {
     font-family: 'Parkinsans', 'tajawal';
     font-size: 1.25rem;
     line-height: 1.2;
     color: var(--color-darkgreen);
+}
+body{
+    height: auto;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(246,250,243,1) 80%, rgba(252,255,209,1) 100%);
+    background-repeat: no-repeat;
+}
+
+li{
+    list-style-type: none;
+}
+
+nav {
+    font-family: 'Parkinsans';
+    width: 15%;
+    background-color: var(--color-green);
+    height: 170%;
+    position:absolute;
+    overflow: auto;
+    margin-top: -2%;
+    margin-left:-2%;
+    padding-left: 1.5%;
+  }
+  
+  
+  nav a {
+    padding: 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+  }
+  
+  nav a:link,
+  nav a:visited {
+    color: white;
+  }
+  
+  nav a:hover,
+  nav a:active {
+    background-color: var(--color-pink);
+    padding: 8px 10px;
+    color: white;
+  }
+
+.chat {
+    padding-left: 3rem;
+}
+
+label,
+span {
+    display: inline-block;
+    width: 250px;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.radio label {
+    width: 35px;
+}
+
+span {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=number],
+input[type=checkbox] {
+    padding: 15px;
+    margin: 8px;
+    border-color: var(--color-pink);
+    border-style: solid;
+    border-radius: 8px;
+}
+
+textarea {
+    border-color: var(--color-pink);
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 2px;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+button {
+    background-color: var(--color-pink);
+    color: var(--color-darkgreen);
+    padding: .5rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: .5rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 9%;
+    margin-left: 170px;
+}
+
+button[type=submit] {
+    margin-top: 2rem;
+}
+
+.facts{
+    margin-bottom: 20px;
+}
+
+.submit{
+    margin-top: -20px;
+}
+
+.chat{
+    padding-left: 35%;
+}
+
+header{
+    padding-left: 35%;
+}
+footer {
+    position:relative;
+    font-size: 0.8rem;
+    text-align: left;
+    color: white;
+    margin-top: 50px;
+    margin-left: 1.3%;
+    margin-right: 85%;
+}
+
+footer a {
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+
+footer a:link,
+footer a:visited {
+    color: white;
+}
+
+footer a:hover,
+footer a:active {
+    color: var(--color-yelow);
+    text-decoration: underline dotted 3px;
+    text-decoration-color: white;
 }
